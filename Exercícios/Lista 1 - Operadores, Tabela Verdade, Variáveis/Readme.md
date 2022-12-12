@@ -2,53 +2,69 @@
 
 ### 1 - Analise os algoritmos abaixo e apresente os resultados das linhas ESCREVA:
 
-1. X = 15
-Y = 20
-ESCREVA X
-B = 3
+a.<br>
+X = 15<br>
+Y = 20<br>
+ESCREVA X<br>
+B = 3<br>
 ESCREVA X, Y
-2. A = 15
-B = 3
-C = A * B
-ESCREVA C
-B = 10
-C = A - B
+<br>
+<br>
+b.<br>
+A = 15<br>
+B = 3<br>
+C = A * B<br>
+ESCREVA C<br>
+B = 10<br>
+C = A - B<br>
 ESCREVA A, B, C
-3. X = 10
-Y = 12
-Z = X
-Y = Z
-X = Y
+<br>
+<br>
+c.<br>
+X = 10<br>
+Y = 12<br>
+Z = X<br>
+Y = Z<br>
+X = Y<br>
 ESCREVA X, Y, Z
-4. A = 10
-B = A + 2
-A = B + 1
-B = A + 1
-ESCREVA A
-A = B + 1
+<br>
+<br>
+d.<br>
+A = 10<br>
+B = A + 2<br>
+A = B + 1<br>
+B = A + 1<br>
+ESCREVA A<br>
+A = B + 1<br>
 ESCREVA A, B
-5. X = 12
-Y = X
-Z = X + Y
-X = 20
-Y = 10
+<br>
+<br>
+e.<br>
+X = 12<br>
+Y = X<br>
+Z = X + Y<br>
+X = 20<br>
+Y = 10<br>
 ESCREVA X, Y, Z
-6. A = 2
-B = 3
-A = A + B
-C = A - B
-ESCREVA C
-B = 5
+<br>
+<br>
+f.<br>
+A = 2<br>
+B = 3<br>
+A = A + B<br>
+C = A - B<br>
+ESCREVA C<br>
+B = 5<br>
 ESCREVA A, B, C
 
 ---
 
 ### 2 - Baseado nos conceitos de tabela verdade e operadores, quais são os resultados (V ou F) de A, B, C, D:
 
-1. 10/2 + 12/3 > (4+5+2) * 2
-2. (4/(2+2) + 5 <= 10) E (A)
-3. ((4+2) * 2 = 8) OU (B)
-4. (A) OU (B) E (C)
+a. 10/2 + 12/3 > (4+5+2) * 2<br>
+b. (4/(2+2) + 5 <= 10) E (A)<br>
+c. ((4+2) * 2 = 8) OU (B)<br>
+d. (A) OU (B) E (C)
 
 ### 3 - Baseado nos conceitos de tabela verdade, resolva:
 
@@ -82,6 +98,6 @@ c.
 
 ### 4 - Para A = V, B = V e C = F, qual o resultado da avaliação das seguintes expressões:
 
-1. (A e B) ou (A ou B)
-2. (A ou B) e (A e C)
-3. A ou C e B ou A e não B
+a. (A e B) ou (A ou B)<br>
+b. (A ou B) e (A e C)<br>
+c. A ou C e B ou A e não B
