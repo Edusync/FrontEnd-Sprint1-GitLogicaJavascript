@@ -41,10 +41,8 @@ conforme tabela abaixo:
 | Saldo Médio | Percentual |
 | --- | --- |
 | de 0 a 200 | nenhum crédito |
-| de 201 a 400 | 20% do valor do saldo
-médio |
-| de 401 a 600 | 30% do valor do saldo
-médio |
+| de 201 a 400 | 20% do valor do saldo médio |
+| de 401 a 600 | 30% do valor do saldo médio |
 
 10 - Elabore um algoritmo em FLUXOGRAMA que dada a idade de uma pessoa exiba se é
 maior ou menor de idade.
