@@ -83,25 +83,25 @@ retornando “É um palíndromo” caso seja, ou “Não é um palíndromo” ca
 12 – Faça uma função que verifica se um número é primo ou não. Retornando “Não é um
 número primo” caso não seja, ou “É um número primo” caso seja.
 
-13 – Escreva uma função que retorna o inverso de um número fornecido.
+13 – Escreva uma função que retorna o inverso de um número fornecido.<br>
 **Exemplo**:
 *forcendo o número* 12345 
 
 *Retorno*: 54321.
 
-14 – Escreva uma função capaz de somar uma quantidade indeterminada de números.
+14 – Escreva uma função capaz de somar uma quantidade indeterminada de números<br>
 **Exemplo:**
 *Somar(3, 5, 6)* retorna 14
 *Somar(2, 5)* retorna 7
 
 15 – Escreva uma função que recebendo uma frase e uma letra retorna quantas vezes a
-letra esteve presente na frase.
+letra esteve presente na frase.<br>
 **Exemplo:**
 *ContarLetra(“frase de exemplo”, “e”)* *Retorno*: 4
 
 16 – Escreva uma função que mostre um retângulo sólido composto do mesmo caractere. A
 função deve receber como parâmetro a quantidade de linhas e colunas e exibir o retângulo
-com os seguintes parâmetros.
+com os seguintes parâmetros.<br>
 **Exemplo**:
 *geraRetangulo(4, 6)* geraria o seguinte resultado no console:<br>
 VVVVVV<br>
