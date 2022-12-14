@@ -103,8 +103,8 @@ letra esteve presente na frase.
 função deve receber como parâmetro a quantidade de linhas e colunas e exibir o retângulo
 com os seguintes parâmetros.
 **Exemplo**:
-*geraRetangulo(4, 6)* geraria o seguinte resultado no console:
-VVVVVV
-VVVVVV
-VVVVVV
+*geraRetangulo(4, 6)* geraria o seguinte resultado no console:<br>
+VVVVVV<br>
+VVVVVV<br>
+VVVVVV<br>
 VVVVVV
