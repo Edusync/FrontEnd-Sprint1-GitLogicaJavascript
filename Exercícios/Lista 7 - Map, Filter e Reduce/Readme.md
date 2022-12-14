@@ -29,36 +29,36 @@ cubo dos valores de A:
 
 <aside>
 💡 
-var filmes= [
-{
+var filmes= [<br>
+{<br>
 "id": 1,
 "title": "Die Hard",
 "valor": 12.00,
 "rating": 5.0
-},
-{
+<br>},
+{<br>
 "id": 2,
 "title": "Homem aranha 1",
 "valor":8.00,
 "rating": 4.0
-},
-{
+<br>},
+{<br>
 "id": 3,
 "title": "Homem de ferro",
 "valor": 7.00,
 "rating": 3.0
-},
-{
+<br>},
+{<br>
 "id": 4,
 "title": "Die Hard",
 "valor": 13.00,
 "rating": 5.0
-}
+<br>}
 ];
 
-</aside>
+</aside><br>
 
-A. Com map, apresente os valores com 10% de desconto.
+A. Com map, apresente os valores com 10% de desconto.<br>
 B. Com filter, apresente os valores maiores que 10,00.
 
 5 - Com base no mesmo array do exercício anterior (Ex 4), utilizando map e
@@ -74,24 +74,24 @@ apenas os filmes cujo id seja um número par:
 
 <aside>
 💡 
-const empresas = [
-{ nome:'Samsung',valorDeMercado: 50, CEO: 'Kim Hyun Suk',
-anoDeCriacao: 1938},
-{ nome: 'Microsoft',valorDeMercado: 415, CEO: 'Satya
-Nadella', anoDeCriacao: 1975 },
-{ nome: 'Intel',valorDeMercado: 117, CEO:'Brian Krzanich',
-anoDeCriacao: 1968},
-{ nome: 'Facebook',valorDeMercado: 383, CEO:'Mark
-Zuckerberg', anoDeCriacao: 2004},
-{ nome: 'Spotify',valorDeMercado: 30, CEO:'Daniel Ek',
-anoDeCriacao: 2006 },
-{nome: 'Apple', valorDeMercado: 845, CEO: 'Tim Cook',
-anoDeCriacao: 1976}
+const empresas = [<br>
+{<br> nome:'Samsung',valorDeMercado: 50, CEO: 'Kim Hyun Suk',
+anoDeCriacao: 1938<br>},
+{<br> nome: 'Microsoft',valorDeMercado: 415, CEO: 'Satya
+Nadella', anoDeCriacao: 1975 <br>},
+{<br> nome: 'Intel',valorDeMercado: 117, CEO:'Brian Krzanich',
+anoDeCriacao: 1968<br>},
+{<br> nome: 'Facebook',valorDeMercado: 383, CEO:'Mark
+Zuckerberg', anoDeCriacao: 2004<br>},
+{<br> nome: 'Spotify',valorDeMercado: 30, CEO:'Daniel Ek',
+anoDeCriacao: 2006 <br>},
+{<br>nome: 'Apple', valorDeMercado: 845, CEO: 'Tim Cook',
+anoDeCriacao: 1976<br>}
 ];
 
 </aside>
 
-Exiba no console as seguintes informações:
-A. Empresas criadas depois dos anos 2000.
-B. O nome de cada empresa e de seu CEO.
+Exiba no console as seguintes informações:<br>
+A. Empresas criadas depois dos anos 2000.<br>
+B. O nome de cada empresa e de seu CEO.<br>
 C. O valor de todas as empresas somadas.
