@@ -1,9 +1,19 @@
-var nota1, nota2, nota3;
+var A, B, C;
 
-nota1 = 6;
-nota2 = 8;
-nota3 = 9;
+A = 12;
+B = 8.5;
+C = 10;
 
-var mediaPonderada = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10;
+if(A > B && A > C) {
+    console.log(A + " é o maior")
+}
+else if(B > A && B > C) {
+    console.log(B + " é o maior")
+}
+else {
+    console.log(C + " é o maior")
+}
 
-console.log(mediaPonderada)
+// EXTRA
+// A função max do JavaScipt permite pegar o maior número
+console.log(Math.max(A, B, C) + " é o maior")

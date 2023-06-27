@@ -1,20 +1,26 @@
-// Variáveis iniciais
-var a, b, c;
+// Utiliza-se um vetor para facilitar a verificação
+var valores = [9, 4, 5, 7, 9]
 
-// Variáveis derivadas da fórmula;
-// Lembrando que a fórmula da equação de segundo gera dois valores de x
-var delta, x1, x2;
+// Uma variável para guardar o maior valor, ela recebe o primeiro numero da lista
+var maiorValor = valores[0];
 
-a = 3;
-b = 0;
-c = -27;
+// Uma variável para guardar quantas vezes o maior valor aparece
+var quantidadeDeVezesQueAparece = 0;
 
-// Primeiro parênteses é desnecessário pois a exponenciação 
-// Será realizada antes da subtração
-delta = (b ** 2) - (4 * a * c);
+// Eu percorro a lista de valores verificando se o valor atual é maior do que o guardado na variável "maiorValor"
+// Se o valor atual for maior, então eu guardo ele na variável
+for (let index = 0; index < valores.length; index++) {
+    if(valores[index] > maiorValor) {
+        maiorValor = valores[index]
+    }    
+}
 
-x1 = (- b + Math.sqrt(delta)) / (2 * a);
-x2 = (- b - Math.sqrt(delta)) / (2 * a);
+for (let index = 0; index < valores.length; index++) {
+    if(valores[index] == maiorValor) {
+        // quantidadeDeVezesQueAparece = quantidadeDeVezesQueAparece + 1;
+        quantidadeDeVezesQueAparece++;
+    }    
+}
 
-console.log("A primeira raiz da equação é: " + x1);
-console.log("A segunda raiz da equação é: " + x2);
+console.log("O maior número da lista é: " +maiorValor)
+console.log("Esse número aparece " + quantidadeDeVezesQueAparece + " vezes na lista")

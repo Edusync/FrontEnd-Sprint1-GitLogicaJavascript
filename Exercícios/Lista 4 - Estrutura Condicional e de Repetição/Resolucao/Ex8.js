@@ -1,10 +1,8 @@
-var custoDeFabrica = 3000;
-
-// Custo do distribuidor = 30% do custo de fabrica
-var custoDistribuidor = custoDeFabrica * 0.3;
-
-// Custo dos impostos = 45% do custo de fabrica
-var custoImpostos = custoDeFabrica * 0.45;
-
-// Custo do consumidor = soma de todos os custos
-var custoConsumidor = custoDeFabrica + custoDistribuidor + custoImpostos;
+/*
+    Novamente altero a estrutura do for para percorrer de 5 em 5
+    Lembrando que: index++ é o mesmo que index = index + 1
+    Portanto para percorrer de 5 em 5 basta alterar para index = index + 5
+*/
+for (let index = 0; index <= 50; index = index + 5) {
+    console.log(index);    
+}

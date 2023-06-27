@@ -1,10 +1,11 @@
-// Calcular tempo baseado na distância e velocidade
+var N;
 
-// Usando os valores de referência para verificar o resultado!
-var distancia = 150;
-var velocidade = 65;
+N = 11;
 
-var tempoEmMinutos = distancia / velocidade * 60;
-
-// Math.round arredonda para o número inteiro mais próximo
-console.log("O tempo para percorrer essa distância é de: " + Math.round(tempoEmMinutos) + " minutos");
+// Basta percorrer todos os números entre 0 e N exibindo aqueles que são pares
+for (let index = 0; index <= N; index++) {
+    if(index % 2 == 0) {
+        console.log(index);
+    }
+    
+}

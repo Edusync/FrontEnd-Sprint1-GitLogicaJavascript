@@ -1,10 +1,14 @@
-// Calcular expressão
+var numero1, numero2;
 
-var A = 2;
-var B = 2;
-var C = 4;
+numero1 = 32;
+numero2 = 17;
 
-// ** - operador exponencial
-var X = (A + B) ** 2 + C;
-
-console.log(X)
+if(numero1 > numero2) {
+    console.log("O primeiro é maior!")
+}
+else if(numero2 > numero1) {
+    console.log("O segundo é maior!");
+}
+else {
+    console.log("Os números são iguais!");
+}
